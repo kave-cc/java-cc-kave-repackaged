@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>cc.kave.repackaged.jayes</artifactId>
+	<version>0.0.1</version>
+
+	<packaging>jar</packaging>
+	<parent>
+		<groupId>cc.kave.repackaged</groupId>
+		<artifactId>cc.kave.repackaged.root</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<name>${project.groupId}:jayes</name>
+	<description>Repackaging of Jayes (Eclipse Code Recommenders) to make it available in Maven.</description>
+	<url>http://www.eclipse.org/recommenders/jayes/</url>
+
+	<licenses>
+		<license>
+			<name>Eclipse Public License v1.0</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+		</license>
+	</licenses>
+	
+	<developers>
+		<developer>
+			<name>Michael Kutschke</name>
+			<organization>Eclipse Code Recommenders</organization>
+			<organizationUrl>http://www.eclipse.org/recommenders/jayes/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Sebastian Proksch</name>
+			<email>development@mail.proks.ch</email>
+			<organization>KaVE Project</organization>
+			<organizationUrl>http://kave.cc/</organizationUrl>
+			<roles>
+				<role>repackaging</role>
+			</roles>
+		</developer>
+	</developers>
+	
+	<scm>
+		<connection>scm:git:https://github.com/kutschkem/Jayes.git</connection>
+		<developerConnection>scm:git:https://github.com/kutschkem/Jayes.git</developerConnection>
+		<url>https://github.com/kutschkem/Jayes</url>
+	</scm>
+
+</project>
